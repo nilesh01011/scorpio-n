@@ -29,7 +29,7 @@ function Steppers({ Steps, theme }) {
         <ul className='w-[320px] h-full flex items-center justify-between relative '>
             {/* before:content-[""] before:absolute before:-bottom-[15%] before:left-[5%] before:right-[5%] before:w-[90%] before:h-[1px] before:bg-white */}
 
-            <li className={`absolute left-[8%] -bottom-[15px] w-[85%] h-[1px] bg-[#8E8585] -z-[1]`}></li>
+            <li className={`absolute left-[8%] -bottom-[15px] w-[86%] h-[1px] bg-[#8E8585] -z-[1]`}></li>
 
             {
                 steppersList.map((ele) => {
