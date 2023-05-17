@@ -111,8 +111,8 @@ function Accessories({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px]`}>Roof Cross Carrier</p>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px] invisible`}>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Roof Cross Carrier</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px] invisible`}>
                                                 Touchscreen Set (7 Inch)
                                             </p>
                                         </div>
@@ -176,8 +176,8 @@ function Accessories({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px]`}>Rear bumper protector - </p>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px]`}>Stainless steel</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Rear bumper protector - </p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Stainless steel</p>
                                         </div>
 
                                         {/* prices */}
@@ -239,8 +239,8 @@ function Accessories({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px]`}>Diamond cut alloy wheel</p>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px] invisible`}>Cover</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Diamond cut alloy wheel</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px] invisible`}>Cover</p>
                                         </div>
 
                                         {/* prices */}
@@ -302,8 +302,8 @@ function Accessories({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px]`}>Illuminated scuff plate </p>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px] invisible`}>Armrest Set</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Illuminated scuff plate </p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px] invisible`}>Armrest Set</p>
                                         </div>
 
                                         {/* prices */}
@@ -366,8 +366,8 @@ function Accessories({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Dual tone cover </p>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px] invisible`}>Anti-Skid Dash Mat Set</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Dual tone cover </p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px] invisible`}>Anti-Skid Dash Mat Set</p>
                                         </div>
 
                                         {/* prices */}
@@ -430,8 +430,8 @@ function Accessories({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px]`}>Front Bumper Add On</p>
-                                            <p className={`text-white 1x1:text-[14px] md:text-[12px] text-[10px] invisible`}>Mat Set</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Front Bumper Add On</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px] invisible`}>Mat Set</p>
                                         </div>
 
                                         {/* prices */}

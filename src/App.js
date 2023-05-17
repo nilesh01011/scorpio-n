@@ -18,16 +18,16 @@ function App() {
     <>
       <Routes>
         <Route path='/my-booking/listings' element={<GoToMyBookingPage />}></Route>
-        <Route path='/own-online/finance/application/details/accessories' element={<Accessories />}></Route>
-        <Route path='/own-online/finance/application/details/merchandise' element={<Merchandise />}></Route>
-        <Route path='/own-online/finance/application/details/addons' element={<AddOns />}></Route>
-        <Route path='/own-online/finance/application/details/exclusive-benefits' element={<ExclusiveBenefits />}></Route>
-        <Route path='/own-online/finance/application/detail/expanded' element={<MoreDetailPages />}></Route>
-        <Route path='/own-online/finance/pre-approved' element={<PreApproved />}></Route>
-        <Route path='/own-online/finance/product-list' element={<InsuranceQuote />}></Route>
-        <Route path='/scorpio-N/add-to-cart' element={<Cart />}></Route>
-        <Route path='/scorpio-N/dealer' element={<Dealer />}></Route>
-        <Route path='/scorpio-N/details-verification' element={<Details />}></Route>
+        <Route path='/own-online/finance/application/details/accessories/' element={<Accessories />}></Route>
+        <Route path='/own-online/finance/application/details/merchandise/' element={<Merchandise />}></Route>
+        <Route path='/own-online/finance/application/details/addons/' element={<AddOns />}></Route>
+        <Route path='/own-online/finance/application/details/exclusive-benefits/' element={<ExclusiveBenefits />}></Route>
+        <Route path='/own-online/finance/application/detail/expanded/' element={<MoreDetailPages />}></Route>
+        <Route path='/own-online/finance/pre-approved/' element={<PreApproved />}></Route>
+        <Route path='/own-online/finance/product-list/' element={<InsuranceQuote />}></Route>
+        <Route path='/scorpio-N/add-to-cart/' element={<Cart />}></Route>
+        <Route path='/scorpio-N/dealer/' element={<Dealer />}></Route>
+        <Route path='/scorpio-N/details-verification/' element={<Details />}></Route>
         <Route exact path='/' element={<Home />}></Route>
       </Routes>
     </>

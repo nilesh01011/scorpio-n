@@ -107,8 +107,8 @@ function Merchandise({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Mahindra Scorpio-N</p>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Scale Model</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Mahindra Scorpio-N</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Scale Model</p>
                                         </div>
 
                                         {/* prices */}
@@ -170,8 +170,8 @@ function Merchandise({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Insulated </p>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Sipper Cup</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Insulated </p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Sipper Cup</p>
                                         </div>
 
                                         {/* prices */}
@@ -233,8 +233,8 @@ function Merchandise({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Mahindra Rise Dairy </p>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>- Black</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Mahindra Rise Dairy </p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>- Black</p>
                                         </div>
 
                                         {/* prices */}
@@ -296,8 +296,8 @@ function Merchandise({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Mahindra Rise Branding </p>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>100% Cotton T-shirts Red</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Mahindra Rise Branding </p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>100% Cotton T-shirts Red</p>
                                         </div>
 
                                         {/* prices */}
@@ -359,8 +359,8 @@ function Merchandise({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Mahindra Scorpio-N</p>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Scale Model</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Mahindra Scorpio-N</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Scale Model</p>
                                         </div>
 
                                         {/* prices */}
@@ -422,8 +422,8 @@ function Merchandise({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Insulated </p>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Sipper Cup</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Insulated </p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Sipper Cup</p>
                                         </div>
 
                                         {/* prices */}
@@ -485,8 +485,8 @@ function Merchandise({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Mahindra Rise Dairy </p>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>- Black</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Mahindra Rise Dairy </p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>- Black</p>
                                         </div>
 
                                         {/* prices */}
@@ -548,8 +548,8 @@ function Merchandise({ setWidth }) {
                                     {/* bottoms sides */}
                                     <div className={`relative w-full h-max rounded-[0_0_10px_10px] bg-[#191919] p-[14px_12px] flex md:items-end md:flex-row md:gap-0 gap-[10px] flex-col md:justify-between`}>
                                         <div className='h-full'>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>Mahindra Rise Branding </p>
-                                            <p className={`text-white 1x1:text-[14px] text-[12px]`}>100% Cotton T-shirts Red</p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>Mahindra Rise Branding </p>
+                                            <p className={`text-white 1x1:text-[14px] xs:text-[12px] text-[11px]`}>100% Cotton T-shirts Red</p>
                                         </div>
 
                                         {/* prices */}

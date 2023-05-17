@@ -29,7 +29,7 @@ function PopupDetails({ theme = 'dark', setWidth, ActivePopover, setActivePopove
                     {/* select place menu content */}
 
                     <div className={`transition-opacity w-full h-full flex items-center justify-center`}>
-                        <div className={`z-[100] sm:w-[388px] w-[360px] h-max ${theme === "dark" ? 'bg-[#212121]' : 'bg-white'} rounded-[20px] p-[20px] relative border-[1px] border-white overflow-hidden`}>
+                        <div className={`z-[100] sm:w-[388px] xs:w-[360px] w-[330px] h-max ${theme === "dark" ? 'bg-[#212121]' : 'bg-white'} rounded-[20px] p-[20px] relative border-[1px] border-white overflow-hidden`}>
                             {/* title */}
                             <div className='w-full flex items-center justify-between mb-[10px] relative'>
                                 <div>

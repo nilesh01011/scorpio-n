@@ -405,11 +405,11 @@ function AddToCart({ successfull, getSuccessfull }) {
 
                                     } */}
 
-                                    <CustomizeBoxs isAdded={isAccessories} title="Accessories" icons={accessoriesIcons && accessoriesIcons} text="Accessories that will go with your Scorpio-N" links="/own-online/finance/application/details/accessories" />
-                                    <CustomizeBoxs isAdded={isLoans} title="Apply for a Loan" icons={loans && loans} text="Lets collaborate to bring home your dream SUV" links="/own-online/finance/pre-approved" />
-                                    <CustomizeBoxs isAdded={isInsurance} title="Buy Insurance" icons={insurance && insurance} text="Quotes that are hard to miss out on" links="/own-online/finance/product-list" />
-                                    <CustomizeBoxs isAdded={isAddOns} title="Add-Ons" icons={addOns && addOns} text="We got you covered  at every step " links="/own-online/finance/application/details/addons" />
-                                    <CustomizeBoxs isAdded={isMerchandise} title="Merchandise" icons={merchandise && merchandise} text="Merchandise that you will love to flaunt" links="/own-online/finance/application/details/merchandise" />
+                                    <CustomizeBoxs isAdded={isAccessories} title="Accessories" icons={accessoriesIcons && accessoriesIcons} text="Accessories that will go with your Scorpio-N" links="/own-online/finance/application/details/accessories/" />
+                                    <CustomizeBoxs isAdded={isLoans} title="Apply for a Loan" icons={loans && loans} text="Lets collaborate to bring home your dream SUV" links="/own-online/finance/pre-approved/" />
+                                    <CustomizeBoxs isAdded={isInsurance} title="Buy Insurance" icons={insurance && insurance} text="Quotes that are hard to miss out on" links="/own-online/finance/product-list/" />
+                                    <CustomizeBoxs isAdded={isAddOns} title="Add-Ons" icons={addOns && addOns} text="We got you covered  at every step " links="/own-online/finance/application/details/addons/" />
+                                    <CustomizeBoxs isAdded={isMerchandise} title="Merchandise" icons={merchandise && merchandise} text="Merchandise that you will love to flaunt" links="/own-online/finance/application/details/merchandise/" />
 
                                 </div>
                             </div>

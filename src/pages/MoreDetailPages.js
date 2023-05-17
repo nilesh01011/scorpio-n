@@ -364,7 +364,7 @@ function MoreDetailPages({ setWidth, theme = 'dark' }) {
                     {/* main footer */}
                     <div className="w-full h-[70px] px-[35px] flex items-center justify-center max-w-[1280px] mx-auto">
                         <div className="h-[44px] flex items-center justify-center gap-8">
-                            <Buttons links="/own-online/finance/pre-approved" title="back" outline={true} />
+                            <Buttons links="/own-online/finance/pre-approved/" title="back" outline={true} />
                             {/* <Buttons links="/xuv400/add-to-cart" title="continue" outline={false} /> */}
 
                             {/* <Link to='/scorpio-N/add-to-cart' type='button' className={`cursor-not-allowed md:text-[16px] text-[14px] relative z-[5] capitalize ${setWidth ? `` : 'flex items-center justify-center xl:w-[150px] md:w-[150px] w-[116px]'} h-full before:content-[""] before:absolute before:left-0 before:right-0 before:bottom-0 before:top-0 ${setWidth ? `before:sm:w-auto before:w-[126px]` : 'before:md:w-[144px] before:w-[116px]'} before:h-[44px] before:border-[1px] before:bg-[#ff3e5b]/60 before:border-[#ff3e5b]/60 before:z-[-1] after:content-[""] after:absolute ${setWidth ? `after:md:-right-[10px] after:-right-[8px]` : 'after:md:right-[-3px] after:right-[-10px]'} after:bottom-0 after:top-0 after:bg-[#ff3e5b]/60 after:w-[2px] after:h-full text-white/60 font-bold`}

@@ -6,7 +6,7 @@ function CustomizeBoxs({ title, text, links, icons, isAdded }) {
     const navigate = useNavigate();
 
     const handleClicks = () => {
-        navigate(`${links}`);
+        navigate(links);
     }
 
     return (

@@ -205,19 +205,19 @@ function AddOns({ theme = "dark", setWidth }) {
                 </div>
 
                 {/* footer */}
-                {/* see disclaimers
+                {/* see disclaimers */}
                 <div className="mt-[20px] mb-[90px] w-full h-full md:hidden block">
-                    <DisclaimerPopup theme={theme} />
+                    {/* <DisclaimerPopup theme={theme} /> */}
                     <p className={`${theme === "dark" ? 'text-white' : 'text-[#0B0B0C]'} text-[12px]`}>
                         <b>Disclaimer:</b> The information presented on this Website is made available solely for general information purposes. <span className='underline font-bold'>Read More</span>
                     </p>
-                </div> */}
+                </div>
             </div>
 
             {/* footer */}
             {/* see disclaimers */}
             <div className="fixed bottom-0 left-0 right-0 h-max w-full mt-0 z-10">
-                <div className="z-50 max-w-[1200px] mx-auto xl:px-0 px-[15px] mb-[10px]">
+                <div className="z-50 max-w-[1200px] mx-auto xl:px-0 px-[15px] mb-[10px] md:block hidden">
                     {/* <DisclaimerPopup theme={theme} /> */}
                     <p className={`${theme === "dark" ? 'text-white' : 'text-[#0B0B0C]'} text-[12px]`}>
                         <b>Disclaimer:</b> The information presented on this Website is made available solely for general information purposes. <span className='underline font-bold'>Read More</span>
