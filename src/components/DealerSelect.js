@@ -184,7 +184,9 @@ function DealerSelect({ theme = "dark" }) {
 
                         {/* disclaimers */}
                         <div className="1x1:w-[35%] mt-[25px] mb-[90px] 1x1:fixed 1x1:bottom-[70px] md:hidden block">
-                            <p className="text-white md:text-[12px] text-[10px]">*Disclaimer: We strongly recommend using Mahindra certified charging boxes for safe and smooth charging experience. Please note that the warranty on charging cable is applicable only if used with Mahindra certified wall outlets or charging boxes. For more details please contact the Mahindra dealer near you.</p>
+                            <span className={`underline text-[12px] cursor-pointer`}>
+                                *See Disclaimers
+                            </span>
                         </div>
                     </div>
                 </div>

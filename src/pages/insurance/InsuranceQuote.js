@@ -74,7 +74,7 @@ function InsuranceQuote({ setWidth }) {
                                     <div className='w-full divide-y-[1px] divide-[#8E8585]'>
                                         {/* titles */}
                                         <div className='pb-[20px]'>
-                                            <h4 className='lg:text-[20px] text-[18px] font-[700]'>Scorpio-N • Z8 L D AT BS6.2 • Deep Forest</h4>
+                                            <h4 className='lg:text-[20px] text-[18px] font-[700]'>Scorpio-N • Z8 L D AT • Deep Forest</h4>
                                         </div>
 
                                         {/* contents */}
@@ -122,7 +122,7 @@ function InsuranceQuote({ setWidth }) {
                             <div className='w-full h-full bg-[#333333] rounded-[10px] p-[16px] flex flex-col gap-[20px]'>
                                 {/* titles */}
                                 <div className=''>
-                                    <h4 className='lg:text-[20px] text-[18px] font-[700]'>Scorpio-N • Z8 L D AT BS6.2 • Deep Forest</h4>
+                                    <h4 className='lg:text-[20px] text-[18px] font-[700]'>Scorpio-N • Z8 L D AT • Deep Forest</h4>
                                 </div>
 
                                 {/* bottoms */}
