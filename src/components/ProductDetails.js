@@ -93,6 +93,11 @@ function ProductDetails() {
                                 <img src={setImages} alt="product-img" className='w-full h-full md:object-contain object-cover' />
                             </div>
                         </div>
+
+                        {/* disclaimers */}
+                        <span className={`underline text-[12px] cursor-pointer`}>
+                            *See Disclaimers
+                        </span>
                     </div>
                     {/* right side select configurations */}
                     {/* h-[360px] */}
