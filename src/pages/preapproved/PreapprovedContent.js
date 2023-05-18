@@ -88,7 +88,11 @@ function PreapprovedContent({ setWidth }) {
         document.querySelector('body').style.backgroundColor = '#0B0B0C';
     })
 
-    const [ActivePopover, setActivePopover] = useState(false)
+    const [ActivePopover, setActivePopover] = useState(false);
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>

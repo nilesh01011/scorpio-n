@@ -47,6 +47,10 @@ function Details({ theme = "dark" }) {
         }
     }, [checked])
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     return (
         <>
             <main className='w-full h-full text-white'>

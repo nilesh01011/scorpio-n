@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import Buttons from '../components/Buttons';
 import DeskTopNavbar from '../components/navbar/DeskTopNavbar';
@@ -93,7 +93,9 @@ function AddOns({ theme = "dark", setWidth }) {
         localStorage.setItem("AddOns", activeAccessories)
     }
 
-    console.log(widthSet)
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>

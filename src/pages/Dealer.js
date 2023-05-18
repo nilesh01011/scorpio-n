@@ -10,7 +10,9 @@ import Steppers from '../components/Steppers'
 function Dealer() {
     useEffect(() => {
         document.body.style.backgroundColor = "#212121"
+        window.scrollTo(0, 0);
     });
+
     return (
         <>
             <main className='w-full h-full text-white'>

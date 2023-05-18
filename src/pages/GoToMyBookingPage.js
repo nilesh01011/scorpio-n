@@ -196,6 +196,10 @@ function GoToMyBookingPage({ setWidth }) {
         document.querySelector('body').style.background = '#0B0B0C';
     });
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     const [getFooterContentId, setGetFooterContentId] = useState(3)
 
     const handleFooterClicks = (id) => {

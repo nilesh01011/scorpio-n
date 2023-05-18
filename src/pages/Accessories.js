@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 // import AccessoriesBox from '../components/AccessoriesBox'
 import AccessoriesComponentsOne from '../components/AccessoriesComponentsOne'
@@ -40,6 +40,10 @@ function Accessories({ setWidth }) {
 
         setTotalPrices((prevPrice) => prevPrice - prices);
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <main className='w-full h-full text-white'>

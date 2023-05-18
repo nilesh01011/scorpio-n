@@ -11,6 +11,10 @@ function AddToCart({ successfull, getSuccessfull }) {
         document.body.style.backgroundColor = "#212121"
     });
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
+
     // Customise Your Quote icons
     // const financeIcons =
     //     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="25" viewBox="0 0 28 25" fill="none">

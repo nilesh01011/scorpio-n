@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import Buttons from '../../components/Buttons'
 import DeskTopNavbar from '../../components/navbar/DeskTopNavbar'
@@ -43,6 +43,10 @@ function InsuranceQuote({ setWidth }) {
         const activeAccessories = true;
         localStorage.setItem("Insurance", activeAccessories)
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <>

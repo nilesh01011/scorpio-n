@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom';
 import Buttons from '../components/Buttons';
 import DeskTopNavbar from '../components/navbar/DeskTopNavbar';
@@ -37,6 +37,10 @@ function Merchandise({ setWidth }) {
 
         setTotalPrices((prevPrice) => prevPrice - prices);
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <main className='w-full h-full text-white'>
