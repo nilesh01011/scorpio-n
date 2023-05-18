@@ -93,11 +93,6 @@ function ProductDetails() {
                                 <img src={setImages} alt="product-img" className='w-full h-full md:object-contain object-cover' />
                             </div>
                         </div>
-
-                        {/* disclaimers */}
-                        <div className="1x1:w-[35%] 1x1:mb-[20px] 1x1:mt-[70px] 1x1:fixed 1x1:bottom-[70px] md:block hidden">
-                            <p className="text-white md:text-[12px] text-[10px]">*Disclaimer: We strongly recommend using Mahindra certified charging boxes for safe and smooth charging experience. Please note that the warranty on charging cable is applicable only if used with Mahindra certified wall outlets or charging boxes. For more details please contact the Mahindra dealer near you.</p>
-                        </div>
                     </div>
                     {/* right side select configurations */}
                     {/* h-[360px] */}
