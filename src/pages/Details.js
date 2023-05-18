@@ -87,7 +87,7 @@ function Details({ theme = "dark" }) {
                                             <div className="w-full flex items-start flex-col">
                                                 {/* title */}
                                                 <h2 className="text-white md:text-[26px] xs:text-[22px] text-[20px] font-bold uppercase">Scorpio-N</h2>
-                                                <p className='text-white xs:text-[18px] text-[16px] font-bold'>Scorpio-N • Z8 L D AT BS6.2 • Deep Forest</p>
+                                                <p className='text-white xs:text-[18px] text-[16px] font-bold'>Scorpio-N • Z8 L D AT • Deep Forest</p>
                                                 {/* <p className='text-white xs:text-[18px] text-[16px] font-bold'>XUV400 • Electric Luxury • Black Copper</p> */}
                                                 <p className='text-white md:text-[14px] text-[12px] sm:w-[80%] w-[90%] md:mt-[18px] mt-[9px] flex flex-col gap-[5px]'>
                                                     <span>Dealer</span>

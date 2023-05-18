@@ -10,28 +10,28 @@ function InsuranceQuote({ setWidth }) {
         {
             id: 1,
             imgsrc: '/insurance.svg',
-            price: '₹80,000',
+            price: '₹80 000',
             textOne: 'Lorem Ipsum dolor amet,Consetrtur',
             textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
         },
         {
             id: 2,
             imgsrc: '/insurance2.svg',
-            price: '₹80,000',
+            price: '₹80 000',
             textOne: 'Lorem Ipsum dolor amet,Consetrtur',
             textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
         },
         {
             id: 3,
             imgsrc: '/insurance.svg',
-            price: '₹80,000',
+            price: '₹80 000',
             textOne: 'Lorem Ipsum dolor amet,Consetrtur',
             textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
         },
         {
             id: 4,
             imgsrc: '/insurance2.svg',
-            price: '₹80,000',
+            price: '₹80 000',
             textOne: 'Lorem Ipsum dolor amet,Consetrtur',
             textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
         }

@@ -9,12 +9,12 @@ function GoToMyBookingPage({ setWidth }) {
     const cardsDetails = [
         {
             id: 1,
-            name: 'Scorpio-N • Z8 L D AT BS6.2 • Deep Forest',
+            name: 'Scorpio-N • Z8 L D AT • Deep Forest',
             dealerName: 'NBS International',
             bookingId: 'IdX31A2Bf3F1B7',
             customerName: 'Ashish Y',
             bookingAmount: '₹21 000.00',
-            bookingDate: '18/04/2023',
+            bookingDate: '25/04/2023',
             chargerType: '3.3kW AC',
             order: true
         },

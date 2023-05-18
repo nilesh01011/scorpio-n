@@ -92,7 +92,7 @@ export const colorChoise = [
 export const chooseVariant = [
     {
         id: 1,
-        title: 'Z8 L D AT 4WD BS6.2',
+        title: 'Z8 L D AT 4WD',
         price: '₹ 2 451 499.00*',
         lists: [
             {
@@ -115,7 +115,7 @@ export const chooseVariant = [
     },
     {
         id: 2,
-        title: 'Z8 L D AT BS6.2',
+        title: 'Z8 L D AT',
         price: '₹ 2 210 705.00*',
         lists: [
             {
@@ -138,7 +138,7 @@ export const chooseVariant = [
     },
     {
         id: 3,
-        title: 'Z8 D AT 4WD BS6.2',
+        title: 'Z8 D AT 4WD',
         price: '₹ 2 306 499.00*',
         lists: [
             {
@@ -161,7 +161,7 @@ export const chooseVariant = [
     },
     {
         id: 4,
-        title: 'Z8 D AT BS6.2',
+        title: 'Z8 D AT',
         price: '₹ 2 046 500.00*',
         lists: [
             {
@@ -184,7 +184,7 @@ export const chooseVariant = [
     },
     {
         id: 5,
-        title: 'Z6 D AT BS6.2',
+        title: 'Z6 D AT',
         price: '₹ 1 801 500.00*',
         lists: [
             {
@@ -207,7 +207,7 @@ export const chooseVariant = [
     },
     {
         id: 6,
-        title: 'Z4 D AT BS6.2',
+        title: 'Z4 D AT',
         price: '₹ 1 711 499.00*',
         lists: [
             {

@@ -55,7 +55,7 @@ function DealerSelect({ theme = "dark" }) {
                             <div className="w-full flex items-start flex-col">
                                 {/* title */}
                                 <h2 className="dark:text-white md:text-[26px] xs:text-[22px] text-[20px] font-bold uppercase">Scorpio-N</h2>
-                                <p className='text-white xs:text-[18px] text-[16px] font-bold'>Scorpio-N • Z8 L D AT BS6.2 • Deep Forest</p>
+                                <p className='text-white xs:text-[18px] text-[16px] font-bold'>Scorpio-N • Z8 L D AT • Deep Forest</p>
                                 {/* <p className='text-white xs:text-[18px] text-[16px] font-bold'>XUV400 • Electric Luxury • Black Copper</p> */}
                             </div>
                             {/* cars images */}

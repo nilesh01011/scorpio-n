@@ -243,7 +243,7 @@ function AddToCart({ successfull, getSuccessfull }) {
                                     <div className={`w-full h-max bg-[#F8F8F8] px-[20px] py-[12px] ${showContents === true ? 'rounded-0' : 'rounded-[0_0_10px_10px]'} text-black`}>
                                         {/* title */}
                                         <div className='mb-[12px]'>
-                                            <h2 className='text-[16px] text-black font-bold'>Scorpio-N • Z8 L D AT BS6.2 • Deep Forest</h2>
+                                            <h2 className='text-[16px] text-black font-bold'>Scorpio-N • Z8 L D AT • Deep Forest</h2>
                                         </div>
 
                                         {/* dealer */}
@@ -265,7 +265,7 @@ function AddToCart({ successfull, getSuccessfull }) {
                                         {
                                             showContents === false &&
                                             <div className='w-full mt-[12px]'>
-                                                <p className='sm:text-[12px] text-[10px]'>*Introductory price eligibility will be communicated shortly for completed bookings. <span className='underline'>see disclaimer</span></p>
+                                                <p className='sm:text-[12px] text-[10px]'>The waiting period for your selected variant is 4-6 weeks Read More</p>
                                             </div>
                                         }
 
@@ -329,7 +329,7 @@ function AddToCart({ successfull, getSuccessfull }) {
                                                 {/* disclaimer */}
 
                                                 <div className='w-full mt-[12px]'>
-                                                    <p className='sm:text-[12px] text-[10px]'>*Introductory price eligibility will be communicated shortly for completed bookings. <span className='underline'>see disclaimer</span></p>
+                                                    <p className='sm:text-[12px] text-[10px]'>The waiting period for your selected variant is 4-6 weeks Read More</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -434,7 +434,7 @@ function AddToCart({ successfull, getSuccessfull }) {
                         <div className={`flex gap-[6px]`}>
                             <p className='sm:text-[12px] text-[10px] font-bold'>Disclaimer:</p>
                             <span className='sm:text-[12px] text-[10px]'>
-                                *Cancellation charges to the tune of 10% of the Booking amount will be applicable on each and every cancellation (except Scorpio-N bookings). The Waiting Period For Your Selected Variant Is 4-6 Weeks <span className='underline'>Read More</span>
+                                *Cancellation charges to the tune of 10% of the Booking amount will be applicable on each and every cancellation (except Scorpio-N bookings).
                             </span>
                         </div>
                     </div>
