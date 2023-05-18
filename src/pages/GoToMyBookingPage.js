@@ -14,7 +14,7 @@ function GoToMyBookingPage({ setWidth }) {
             bookingId: 'IdX31A2Bf3F1B7',
             customerName: 'Ashish Y',
             bookingAmount: '₹21 000.00',
-            bookingDate: '25/04/2023',
+            bookingDate: '25/05/2023',
             chargerType: '3.3kW AC',
             order: true
         },
