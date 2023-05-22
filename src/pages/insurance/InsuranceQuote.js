@@ -9,15 +9,22 @@ function InsuranceQuote({ setWidth }) {
     const insuranceList = [
         {
             id: 1,
-            imgsrc: '/insurance.svg',
-            price: '₹80 000',
+            imgsrc: '/insurance3.svg',
+            price: '₹91 500',
             // textOne: 'Lorem Ipsum dolor amet,Consetrtur',
             // textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
         },
         {
             id: 2,
-            imgsrc: '/insurance2.svg',
-            price: '₹80 000',
+            imgsrc: '/insurance4.svg',
+            price: '₹92 100',
+            // textOne: 'Lorem Ipsum dolor amet,Consetrtur',
+            // textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
+        },
+        {
+            id: 3,
+            imgsrc: '/insurance5.svg',
+            price: '₹92 830',
             // textOne: 'Lorem Ipsum dolor amet,Consetrtur',
             // textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
         }
@@ -84,7 +91,7 @@ function InsuranceQuote({ setWidth }) {
                                                     <span className='lg:text-[16px] text-[14px]'>Insurance IDV</span>
                                                 </div>
                                                 <span className='font-[700] lg:text-[16px] text-[14px]'>
-                                                    ₹8 10 000
+                                                    ₹21 10 000
                                                 </span>
                                             </div>
 
@@ -93,7 +100,7 @@ function InsuranceQuote({ setWidth }) {
                                                     <span className='lg:text-[16px] text-[14px]'>On-Road Price</span>
                                                 </div>
                                                 <span className='font-[700] lg:text-[16px] text-[14px]'>
-                                                    ₹11 90 000
+                                                    ₹26 24 294
                                                 </span>
                                             </div>
                                         </div>
