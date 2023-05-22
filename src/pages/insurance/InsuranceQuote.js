@@ -143,12 +143,12 @@ function InsuranceQuote({ setWidth }) {
                                         <div className='w-full grid grid-cols-2 mt-[12px]'>
                                             <div className='flex flex-col'>
                                                 <span>Insurance IDV</span>
-                                                <span className='font-[700]'>₹8,10,000</span>
+                                                <span className='font-[700]'>₹8 10 000</span>
                                             </div>
 
                                             <div className='flex flex-col'>
                                                 <span>On-Road Price</span>
-                                                <span className='font-[700]'>₹11,90,000</span>
+                                                <span className='font-[700]'>₹11 90 000</span>
                                             </div>
                                         </div>
                                     </div>
