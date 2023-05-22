@@ -43,7 +43,7 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="1x1:w-[35%] mt-[25px] mb-[15px] 1x1:fixed 1x1:bottom-[70px] md:block hidden">
+                    <div className="1x1:w-[35%] 1x1:mb-[50px] mb-[80px] 1x1:fixed 1x1:bottom-[70px] md:block hidden">
                         <span className={`underline text-[12px] cursor-pointer`}>
                             *See Disclaimers
                         </span>

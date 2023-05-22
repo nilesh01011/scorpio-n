@@ -79,7 +79,8 @@ function ProductDetails() {
             <div className='w-full h-full max-w-[1260px] mx-auto text-white md:mt-[50px] mt-[40px]'>
                 {/* main cars details */}
                 {/* md:mt-[30px] mt-[6px] */}
-                <div className="w-full h-full flex lg:flex-row flex-col justify-between gap-[12px] 1x1:mb-0 lg:mb-[80px]">
+                {/* 1x1:mb-0 lg:mb-[80px] */}
+                <div className="w-full h-full flex lg:flex-row flex-col justify-between gap-[12px]">
                     {/* left side cars details */}
                     <div className="lg:w-[45%] w-full h-full flex flex-col justify-between">
                         <div className="w-full">
