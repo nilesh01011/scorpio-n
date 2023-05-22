@@ -13,7 +13,7 @@ function CustomizeBoxs({ title, text, links, icons, isAdded }) {
         <>
             <div onClick={() => handleClicks()} className='bg-[#333333] p-[12px] rounded-[10px] cursor-pointer flex items-center justify-between flex-col'>
                 {/* title */}
-                <div>
+                <div className='w-full'>
                     <div className='w-full flex items-center gap-[8px] whitespace-nowrap'>
                         <h4 className='md:text-[18px] text-[16px] font-[700]'>{title}</h4>
                         {

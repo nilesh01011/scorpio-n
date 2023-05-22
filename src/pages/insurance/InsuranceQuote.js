@@ -82,7 +82,7 @@ function InsuranceQuote({ setWidth }) {
                                                     </span>
                                                 </div>
                                                 <span className='font-[700] lg:text-[16px] text-[14px]'>
-                                                    Mumbai MH-01
+                                                    Mumbai MH-02
                                                 </span>
                                             </div>
 
@@ -132,7 +132,7 @@ function InsuranceQuote({ setWidth }) {
                                             <div className='flex flex-col'>
                                                 <span className='sm:text-[14px] text-[12px]'>RTO City</span>
                                                 <span className='font-[700] sm:text-[14px] text-[12px]'>
-                                                    Mumbai MH-01
+                                                    Mumbai MH-02
                                                 </span>
                                             </div>
 
