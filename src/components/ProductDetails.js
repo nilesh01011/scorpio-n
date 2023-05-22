@@ -95,9 +95,9 @@ function ProductDetails() {
                         </div>
 
                         {/* disclaimers */}
-                        <span className={`underline text-[12px] cursor-pointer md:block hidden`}>
+                        {/* <span className={`underline text-[12px] cursor-pointer md:block hidden`}>
                             *See Disclaimers
-                        </span>
+                        </span> */}
                     </div>
                     {/* right side select configurations */}
                     {/* h-[360px] */}

@@ -42,6 +42,12 @@ function Home() {
                             <ProductDetails />
                         </div>
                     </div>
+
+                    <div className="1x1:w-[35%] mt-[25px] mb-[15px] 1x1:fixed 1x1:bottom-[70px] md:block hidden">
+                        <span className={`underline text-[12px] cursor-pointer`}>
+                            *See Disclaimers
+                        </span>
+                    </div>
                 </div>
 
                 {/* footer */}

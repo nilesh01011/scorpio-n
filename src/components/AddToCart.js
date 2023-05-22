@@ -269,7 +269,7 @@ function AddToCart({ successfull, getSuccessfull }) {
                                         {
                                             showContents === false &&
                                             <div className='w-full mt-[12px]'>
-                                                <p className='sm:text-[12px] text-[10px]'>The waiting period for your selected variant is 4-6 weeks <span className='underline cursor-pointer'>Read More</span></p>
+                                                <p className='sm:text-[12px] text-[10px]'>The waiting period for your selected variant is 8-12 weeks <span className='underline cursor-pointer'>Read More</span></p>
                                             </div>
                                         }
 
@@ -333,7 +333,7 @@ function AddToCart({ successfull, getSuccessfull }) {
                                                 {/* disclaimer */}
 
                                                 <div className='w-full mt-[12px]'>
-                                                    <p className='sm:text-[12px] text-[10px]'>The waiting period for your selected variant is 4-6 weeks Read More</p>
+                                                    <p className='sm:text-[12px] text-[10px]'>The waiting period for your selected variant is 8-12 weeks <spsn className="underline">Read More</spsn></p>
                                                 </div>
                                             </div>
                                         </div>

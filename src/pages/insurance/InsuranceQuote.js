@@ -11,29 +11,15 @@ function InsuranceQuote({ setWidth }) {
             id: 1,
             imgsrc: '/insurance.svg',
             price: '₹80 000',
-            textOne: 'Lorem Ipsum dolor amet,Consetrtur',
-            textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
+            // textOne: 'Lorem Ipsum dolor amet,Consetrtur',
+            // textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
         },
         {
             id: 2,
             imgsrc: '/insurance2.svg',
             price: '₹80 000',
-            textOne: 'Lorem Ipsum dolor amet,Consetrtur',
-            textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
-        },
-        {
-            id: 3,
-            imgsrc: '/insurance.svg',
-            price: '₹80 000',
-            textOne: 'Lorem Ipsum dolor amet,Consetrtur',
-            textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
-        },
-        {
-            id: 4,
-            imgsrc: '/insurance2.svg',
-            price: '₹80 000',
-            textOne: 'Lorem Ipsum dolor amet,Consetrtur',
-            textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
+            // textOne: 'Lorem Ipsum dolor amet,Consetrtur',
+            // textTwo: 'Lorem Ipsum dolor amet,Consetrtur',
         }
     ];
 
@@ -98,7 +84,7 @@ function InsuranceQuote({ setWidth }) {
                                                     <span className='lg:text-[16px] text-[14px]'>Insurance IDV</span>
                                                 </div>
                                                 <span className='font-[700] lg:text-[16px] text-[14px]'>
-                                                    ₹8,10,000
+                                                    ₹8 10 000
                                                 </span>
                                             </div>
 
@@ -107,7 +93,7 @@ function InsuranceQuote({ setWidth }) {
                                                     <span className='lg:text-[16px] text-[14px]'>On-Road Price</span>
                                                 </div>
                                                 <span className='font-[700] lg:text-[16px] text-[14px]'>
-                                                    ₹11,90,000
+                                                    ₹11 90 000
                                                 </span>
                                             </div>
                                         </div>
@@ -176,18 +162,25 @@ function InsuranceQuote({ setWidth }) {
                             <div className='mt-[30px]'>
                                 <h4 className='text-[20px] font-[700] mb-[8px]'>Hi Ashish, here are the best Insurance offers for you</h4>
                                 <div className='flex items-center'>
-                                    <h5 className='flex items-center gap-[4px]'>
+                                    {/* <h5 className='md:flex hidden items-center gap-[4px]'>
                                         <span className='font-[700]'>
                                             Policy Type :
                                         </span>
                                         <span className='font-[400]'>
                                             Comprehensive Insurance  (1st Year Own Damage + 3 Years Third Party)
                                         </span>
+                                    </h5> */}
+
+                                    <h5 className='font-[700]'>
+                                        Policy Type :
+                                        <span className='font-[400] ml-[4px]'>
+                                            Comprehensive Insurance  (1st Year Own Damage + 3 Years Third Party)
+                                        </span>
                                     </h5>
                                 </div>
                             </div>
 
-                            <div id="overFlowNone" className='w-full h-full grid md:grid-cols-2 md:grid-rows-2 gap-[20px] mt-[25px] overflow-scroll mb-[90px]'>
+                            <div id="overFlowNone" className='w-full h-full grid md:grid-cols-2 md:grid-rows-1 gap-[20px] mt-[25px] overflow-scroll mb-[90px]'>
                                 {
                                     insuranceList.map((ele) => {
                                         const { id, imgsrc, price, textOne, textTwo } = ele;
@@ -207,12 +200,16 @@ function InsuranceQuote({ setWidth }) {
                                                     </div>
                                                 </div>
                                                 {/* middle */}
-                                                <div className='py-[12px]'>
-                                                    <ul className='w-full list-disc pl-[16px] flex items-center justify-between'>
-                                                        <li>{textOne}</li>
-                                                        <li>{textTwo}</li>
-                                                    </ul>
-                                                </div>
+                                                {
+                                                    textOne && textTwo && (
+                                                        <div className='py-[12px]'>
+                                                            <ul className='w-full list-disc pl-[16px] flex items-center justify-between'>
+                                                                <li>{textOne}</li>
+                                                                <li>{textTwo}</li>
+                                                            </ul>
+                                                        </div>
+                                                    )
+                                                }
                                                 {/* bottom */}
                                                 <div className='w-full flex items-center justify-between pt-[12px]'>
                                                     {/* polices */}
