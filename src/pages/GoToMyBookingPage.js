@@ -436,10 +436,10 @@ function GoToMyBookingPage({ setWidth }) {
                                                             </div>
 
                                                             {/* charger types */}
-                                                            <div className='w-full flex flex-col'>
+                                                            {/* <div className='w-full flex flex-col'>
                                                                 <span className='text-[14px] text-[#DEDEDE]'>Charger Type</span>
                                                                 <span className='font-bold text-[16px]'>{chargerType}</span>
-                                                            </div>
+                                                            </div> */}
                                                         </div>
 
                                                         {/* bottom buttons */}
